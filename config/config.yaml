@@ -1,0 +1,19 @@
+server:
+  name: "go-article"
+  env: "dev"
+  address: ":3030"
+  base_url: "localhost"
+  internal_access_key: "inikeynya-aman-loh"
+database:
+  user: "root"
+  password: "password"
+  host: "db"
+  port: "3306"
+  name: "go-article"
+  params: "charset=utf8mb4&parseTime=True&loc=Local"
+  migration_table_name: "go-article_migrations"
+redis:
+  host: "cache"
+  port: "6379"
+  password: ""
+  db: 0
